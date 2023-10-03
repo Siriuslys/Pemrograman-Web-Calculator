@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Calculator 1.0</title>
+    <script src="script.js"></script>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 style="text-align: center; padding: 5px;">HiTUng</h1>
+    <div class="grid-container">
+        <input type="text" id="display">
+
+        <div class="calculator-keys">
+        <div>
+        <button onclick="clearDisplay()">Clear</button>
+        <div></div>
+        <button onclick="addDisplay('1')">1</button>
+        <button onclick="addDisplay('2')">2</button>
+        <button onclick="addDisplay('3')">3</button>
+        <button onclick="addDisplay('4')">4</button>
+        <button onclick="addDisplay('5')">5</button>
+        <button onclick="addDisplay('6')">6</button>
+        <button onclick="addDisplay('7')">7</button>
+        <button onclick="addDisplay('8')">8</button>
+        <button onclick="addDisplay('9')">9</button>
+        <button onclick="addDisplay('0')">0</button>
+        <div>
+        <button onclick="addDisplay('.')">.</button>
+        <button onclick="addDisplay('+')">+</button>
+        <button onclick="addDisplay('-')">-</button>
+        <button onclick="addDisplay('/')">/</button>
+        <button onclick="addDisplay('*')">*</button>
+    </div>
+        <button onclick="calculate()">=</button>
+    </div>
+    </div>
+</div>
+</body>
+</html>
